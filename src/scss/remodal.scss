@@ -1,0 +1,16 @@
+.remodal {
+    text-align: left;
+    .remodal-close {
+        right: 22px;
+        top: 24px;
+        left: auto;
+        width: 18px;
+        height: 18px;
+        &:before {
+            display: none;
+        }
+    }
+}
+.remodal-wrapper {
+    padding: 0;
+}

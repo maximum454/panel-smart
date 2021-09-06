@@ -1,0 +1,25 @@
+@import "partials/normalize";
+
+@import "mixin";
+
+
+@import "buttons";
+@import "form";
+@import "icon";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    &.lock{
+        overflow: hidden;
+    }
+}
+
+
+@import "componets/panel-smart";
+@import "componets/panel-catalog";
+
+
